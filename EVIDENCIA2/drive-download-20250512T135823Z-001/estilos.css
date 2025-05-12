@@ -1,0 +1,25 @@
+/*Reto1*/
+section h2{
+    font-size: 60px;
+}
+aside h3{
+    font-size: 55px;
+}
+/*Reto2*/
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+/*Reto3*/
+.contenedor a{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Reto4*/
+section .titulo + p{
+    color: gold;
+}
+/*Reto5*/
+aside p{
+    color: indigo;
+}

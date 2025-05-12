@@ -1,0 +1,71 @@
+/* Selectores descendientes */
+
+#globalNav .mainTitle {
+       color: blueviolet;
+       font-size: 16px;
+}
+
+#globalNav .mainTitle {
+       color: blueviolet;
+}
+
+.contenedor .mainTitle{
+       color: red;
+}
+
+footer .mainTitle{
+       color: aqua;
+}
+
+/* Selectores hijos*/
+footer > p{
+       background-color: lightcoral;
+}
+/*C ambiar el coor del developer */
+
+footer > p > span{
+       color: yellowgreen;
+}
+
+/*Selectores de hermandad */
+
+footer h2 ~ p{
+       color: blue;
+       text-decoration: underline;
+}
+
+/*hermanos adyacente*/
+.developer{
+       font-family: Courier, monospace;
+       font-size: 20px;
+}
+
+.developer + p{
+       background-color: lightskyblue;
+}
+form button{
+       color: white;
+       background-color: blueviolet;
+}
+/* Selectores de atribiutos simples */
+
+input[type]{
+       border-bottom: yellow 2px dotted;
+       border-top:  4px solid red;
+}
+/*Selectores de atributros con valor*/
+
+.contenedor input[type="password"]{
+       border-left: crimson 2px dashed;
+       border-right: blue 2px dotted;
+}
+
+/*selectores de atributos con valor al final */
+/*enlaces con dominios org*/
+a[href$= "org"]{
+       color: peru;
+}
+
+a[href^= "aprendices"]{
+       color: pink;
+}
